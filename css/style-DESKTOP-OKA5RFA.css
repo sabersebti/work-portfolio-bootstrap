@@ -1,0 +1,67 @@
+
+/* Main font */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Header */
+  header {
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Hero banner */
+  .hero-banner {
+    /* Background image */
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+  
+    /* Text inside banner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-banner h2 {
+    font-size: 4rem;
+  }
+  
+  /* About Me section */
+  section:nth-of-type(2) {
+    padding: 4rem 2rem;
+  }
+  
+  /* Work portfolio section */
+  section:nth-of-type(3) {
+    margin: 4rem 0;
+  }
+  
+  section:nth-of-type(3) h2 {
+    margin-bottom: 2rem;
+  }
+  
+  img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .get-in-touch div:first-of-type, .get-in-touch div:nth-of-type(2) {
+    font-weight: bold;
+  }  
+  
