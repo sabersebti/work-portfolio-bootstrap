@@ -1,97 +1,125 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-<head>
-  <meta charset="UTF-8">
-  <title>Work Portfolio</title>
-  <!-- Add Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-  <!-- Start Header Area -->
-  <header>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- Title and custom stylesheet -->
+    <title>Work Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron text-center">
+        <h1>Saber Sebti</h1>
+        <nav>
+          <ul class="list-inline">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      
       <div class="container">
-        <a href="#" class="navbar-brand">Saber Sebti</a>
-      </div>
-    </nav>
-  </header>
-  <!-- End Header Area -->
+        <section class="page-section" id="about">
+          <h2>About Me</h2>
+          <p>I am an enthusiastic beginner web developer with a passion for creating intuitive and user-friendly applications. I am working towards my boot-camp certificate as a frontend developer and l am eager to apply my skills and knowledge to real-world projects. My current skill set includes Html, CSS, and JavaScript. I am actively seeking opportunities to expand them, learn new technologies and take on challenging projects that will help me grow as a developer. I am a quick learner and always ready to take on new challenges, I am excited to begin my journey in the tech industry.</p>
+        </section>
+  
+        <section class="page-section" id="work">
+          <h2>Work</h2>
+  
+          <div class="row">
+            <div class="col-sm-6 col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="images/02-portfolio-1.jpg" alt="first application">
+                <div class="card-body">
+                  <h3 class="card-title">Application 1</h3>
+                  <p class="card-text">This is a brief description of the 1st application in my portfolio.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="./images/02-portfolio-2.jpg" alt="second application">
+                <div class="card-body">
+                  <h3 class="card-title">Application 2</h3>
+                  <p class="card-text">This is a brief description of the 2nd application in my portfolio.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="./images/02-portfolio-3.jpg" alt="third application">
+                <div class="card-body">
+                  <h3 class="card-title">Application 3</h3>
+                  <p class="card-text">This is a brief description of the 3rd application in my portfolio.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="./images/02-portfolio-4.jpg" alt="fourth application">
+                <div class="card-body">
+                  <h3 class="card-title">Application 4</h3>
+                  <p class="card-text">This is a brief description of the 4th application in my portfolio.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="page-section" id="contact">
+          <h2>Contact Me</h2>
+  
+          <section>
+            <p>You can reach me using any of the following methods or just send a message in the below form:</p>
+            <ul>
+              <li>Phone: +44 7454 387277</li>
+              <li>Email: sebti.saber1@email.com</li>
+              <li>Github: <a href="https://github.com/username">sabersebti</a></li>
+              <li>Twitter: <a href="https://twitter.com/username">@sebsab81</a></li>
+            </ul>
+          </section>
+  
+          <section class="contact-section">
+            <div class="container">
+              <h2>Get in touch</h2>
+              <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+  
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+  
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Enter your message"></textarea>
+  
 
-  <!-- Start Hero Banner -->
-  <section class="hero-banner">
-    <div class="container">
-      <h2>Forward Critical Thinking!</h2>
-    </div>
-  </section>
-  <!-- End Hero Banner -->
+            
 
-  <!-- Start Main content area -->
-  <main class="container py-5">
-    <!-- About Me section -->
-    <section>
-      <h2>About Me</h2>
-      <p class="lead">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quas dicta aperiam doloremque,
-        magnam ad, dolorum, quam consectetur magni voluptatem consequatur? Et in magnam ex id, quasi
-        nesciunt est ducimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore adipisci
-        saepe temporibus sint.
-      </p>
-      <p>
-        Quasi sunt unde est nihil distinctio blanditiis dolorum. Numquam nemo cumque libero aut voluptatum autem quasi?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolores, nisi voluptates illo suscipit quidem
-        sint alias provident amet dicta excepturi asperiores atque itaque vel quo modi beatae iste ipsum? Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Dolorum repudiandae deleniti similique itaque tenetur delectus
-        officiis obcaecati, nisi laudantium quasi praesentium natus a maxime culpa aliquid qui architecto dolore
-        cupiditate?
-      </p>
+            <input type="submit" value="Send Message">
+          </form>
+        </div>
+      </section>
+
     </section>
 
-    <!-- Work portfolio section -->
-    <section>
-      <h2>Work</h2>
-      <div class="row">
-        <div class="col-md-6 mb-4">
-          <img src="images/02-portfolio-1.jpg" alt="first application" class="img-fluid">
-        </div>
-        <div class="col-md-6 mb-4">
-          <img src="images/02-portfolio-2.jpg" alt="second application" class="img-fluid">
-        </div>
-        <div class="col-md-6 mb-4">
-          <img src="images/02-portfolio-3.jpg" alt="third application" class="img-fluid">
-        </div>
-        <div class="col-md-6 mb-4">
-          <img src="images/02-portfolio-4.jpg" alt="fourth application" class="img-fluid">
-        </div>
-      </div>
-    </section>
   </main>
-  <!-- End main area -->
 
-  <!-- Start Footer Area -->
   <footer>
-    <section>
-      <h3>Contact Me</h3>
-      <div class="container get-in-touch">
-        <div>Phone number</div>
-        <nav></nav>
-        <div>Email</div>
-        <nav></nav>
-        <div>Github</div>
-        <nav></nav>
-        <div>Twitter</div>
-        <nav></nav>
-      </div>
-    </section>
+    <p>&copy; 2023 Saber Sebti</p>
   </footer>
-  <!-- End Footer Area -->
+</body>
 
-  <!-- Add Scripts -->
-  <!-- Bootstrap JS and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1PiApT12" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js 
+</html>
