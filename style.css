@@ -14,6 +14,52 @@ header {
   padding: 1em;
 }
 
+.jumbotron {
+  background: linear-gradient(rgba(118, 58, 254, 0.8), rgba(36, 27, 120, 0.6)), url(./img/bg.jpg);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron h1 {
+  font-size: 72px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.jumbotron nav {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron li {
+  margin: 5px;
+}
+
+.jumbotron a {
+  display: inline-block;
+  padding: 10px 50px;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.jumbotron a:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px gray;
+  border: 2px solid #333;
+  box-shadow: 5px 5px 10px #333;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.8;
+}
+
+
 header h1,h2,h3 {
   margin: 0;
   text-shadow: 2px 2px 4px #000;
@@ -30,22 +76,6 @@ header h1,h2,h3 {
   }
 }
 
-header nav {
-  display: flex;
-}
-
-header nav a {
-  color: #fff;
-  margin-left: 1em;
-  text-decoration: none;
-  transition: all 0.5s ease;
-  font-size: 20px; /* Added for readability */
-}
-
-header nav a:hover {
-  color: #00cc00;
-  text-shadow: 2px 2px 4px #000;
-}
 
 /* Hero Banner Styles */
 .hero-banner {
@@ -115,7 +145,7 @@ header nav a:hover {
 }
 
 div {
-  text-align: left;
+  text-align: center;
   background-color: #e7d8d8;
   padding: 20px;
   border-radius: 10px;
